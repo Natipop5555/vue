@@ -1,0 +1,39 @@
+.personal_account{
+    height: 794px;
+    background-color: #FFF8F3;
+}
+.info{
+    text-align: center;
+}
+.profile{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+    padding-top: 105px;
+    padding-bottom: 10px;
+}
+.profile_text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+.resresh_profile{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}

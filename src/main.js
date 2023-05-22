@@ -1,4 +1,11 @@
 import './assets/main.css'
+import './assets/athorization.css'
+import './assets/bascket.css'
+import './assets/catalogue.css'
+// import './assets/home.css'
+import './assets/personal_account.css'
+import './assets/reviews.css'
+import './assets/registration.css'
 
 import { createApp } from 'vue'
 import App from './App.vue'
