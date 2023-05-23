@@ -5,6 +5,25 @@ export default {
     name: "Reviews",
     components:{
         Footer, Header
+    },
+    data(){
+        return{
+            reviewsData: {
+                img: '',
+                name: '',
+                surname: '',
+                phone: '',
+                content: ''
+            }
+        }
+    },
+    methods:{
+        async AddReviews(){
+            let result = await fetch('http://Api example/routes/reviews.php', {
+                method: 'POST',
+                body: JSON.stringify(this.reviewsData)
+            })
+        }
     }
 }
 
@@ -29,7 +48,7 @@ export default {
 
                     </div>
                     <input type="text" placeholder="Отзыв" class="reviews_input2">
-                    <button class="reviews_btn">Отправить отзыв</button>
+                    <button @click="AddReviews" class="reviews_btn">Отправить отзыв</button>
                 </div>
                 <div class="ready__made__reviews">
                     <div class="speech_form">

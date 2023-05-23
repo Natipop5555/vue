@@ -1,41 +1,46 @@
-.basket{
-    height: 776px;
+.tour{
+
+    height: 1324px;
     background-color: #FFF8F3;
+
 }
-.container{
-    max-width: 1128px;
+.container_tour{
+    max-width: 1428px;
     margin: auto;
 }
-.basket_title{
+.tour__title__block{
+    text-align: center;
+}
+
+.tour_title{
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
-    color: #000000;
-    padding-top: 60px;
+    line-height: 40px;
     text-align: center;
-}
-.basket_title_mini{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
+    letter-spacing: -0.02em;
     color: #000000;
-    padding-top: 30px;
-    text-align: center;
+    padding-top: 40px;
 }
-.basket_title_img{
+.tour_title_img{
     margin-top: 5px;
 }
-.basket__title__block{
-    text-align: center;
-}
-.tour_block{
+.tour__card{
+    margin-top: 30px;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
 }
 .tour_card_item{
     width: 450px;
-    height: 490px;
+    height: 530px;
+    background: #E5E5E5;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 20px;
+}
+.tour_card_item_const{
+    width: 450px;
+    height: 530px;
     background: #E5E5E5;
     border-radius: 5px;
     text-align: center;
@@ -80,9 +85,38 @@
     margin-right: 30px;
     margin-top: 3px;
 }
+.text_place_const{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 3px;
+}
 .text_tour{
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     margin-top: 15px;
 }
+.tour_btn{
+    font-family: "Rafale", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: #FFFFFF;
+    background: #2B3844;
+    border-radius: 5px;
+    width: 450px;
+    height: 40px;
+    margin-top: 33px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+
+.tour_btn:hover{
+    border: none;
+    background-color: #A0CED8;
+}
+
+
+

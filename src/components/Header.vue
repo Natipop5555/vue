@@ -1,6 +1,7 @@
 <script>
 export default {
-    name: "Header"
+    name: "Header",
+
 }
 </script>
 
@@ -9,16 +10,16 @@ export default {
         <div class="header__content">
             <ul class="header__menu__list">
                 <li class="header_menu_item">
-                    <router-link to="/regist" class="header_link">Регистрация</router-link>
+                    <router-link to="/regist" class="header_link header_link_second">Регистрация</router-link>
                 </li>
                 <li class="header_menu_item">
                     <router-link to="/autho" class="header_link">Авторизация</router-link>
                 </li>
                 <li class="header_menu_item">
-                    <router-link to="/catalog" class="header_link">Каталог</router-link>
+                    <router-link to="/catalog" class="header_link header_link_first">Каталог</router-link>
                 </li>
                 <li class="header_menu_item">
-                    <router-link to="/home"><img src="/img/logo.png" alt="logo" class="logo"></router-link>
+                    <router-link to="/"><img src="@/assets/img/logo.png" alt="logo" class="logo"></router-link>
                 </li>
                 <li class="header_menu_item">
                     <router-link to="/basket" class="header_link">Корзина</router-link>

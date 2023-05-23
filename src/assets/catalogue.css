@@ -1,68 +1,90 @@
 .catalogue{
-    height: 1024px;
+    height: 1124px;
     background-color: #FFF8F3;
 }
 .container{
     max-width: 1128px;
     margin: auto;
 }
+.catal_title_block{
+    text-align: center;
+}
 .catal_title{
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
-    line-height: 0px;
-    color: #2B3844;
-    padding-top: 60px;
+    line-height: 40px;
+    color: #000000;
+    padding-top: 40px;
     text-align: center;
 
+}
+title_img{
+    margin-top: 5px;
 }
 .catal_img{
     width: 300px;
     height: 300px;
+    align-items: center;
+    margin-top: 30px;
     border-radius: 5px;
-    margin-left: 50px;
-    margin-top: 40px;
 }
 .catal_card_item{
-    width: 400px;
-    height: 400px;
-    border-radius: 5px;
-    margin-left: 11px;
-    margin-bottom: 11px;
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    text-align: center;
+    background: #E5E5E5;
+    margin-right: 20px;
+}
+.catal_card_item_const {
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    text-align: center;
+    background: #E5E5E5;
 }
 .catal_card{
     display: flex;
-    margin-top: 35px;
+    justify-content: center;
+    margin-top: 25px;
 }
-.catal_card2{
-    display: flex;
-}
+
 .catal_card_title{
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 34px;
-    line-height: 0px;
-    padding-top: 20px;
-    color: #2B3844;
+    font-size: 25px;
+    padding-top: 5px;
+    color: #000000;
     text-align: center;
-    margin-left: 25px;
 }
-.catal_card_btn{
-    background: #2B3844;
-    border-radius: 5px;
-    width: 150px;
-    height: 40px;
-    font-family: 'Open Sans';
+.catal_card_desc{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.catal_card_a{
     font-style: normal;
     font-weight: 800;
     font-size: 12px;
     line-height: 20px;
-
     color: #FFFFFF;
 
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-top: 20px;
-    margin-left: 125px;
+}
+.catal_card_btn{
+    background: #2B3844;
+    font-family: "Rafale", sans-serif;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    margin-top: 5px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+
+}
+.catal_card_btn:hover{
+    border: none;
+    background-color: #A0CED8;
 }

@@ -14,41 +14,50 @@ export default {
     <main>
 
         <section class="catalogue">
-            <h1 class="catal_title">Страны</h1>
             <div class="container">
+                <div class="catal_title_block">
+                    <h1 class="catal_title">Страны</h1>
+                    <img src="@/assets/img/Rectangle.png" alt="линия" class="title_img">
+                </div>
                 <div class="catal_card">
                     <div class="catal_card_item">
-                        <img src="/img/tai.jpg" alt="" class="catal_img">
+                        <img src="@/assets/img/tai.jpg" alt="" class="catal_img">
                         <p class="catal_card_title">Таиланд</p>
-                        <button class="catal_card_btn"><a href="">Подробнее</a></button>
+                        <p class="catal_card_desc">Отдыхайте душой и телом</p>
+                        <button class="catal_card_btn"><router-link to="/tour" class="catal_card_a">Подробнее</router-link></button>
                     </div>
                     <div class="catal_card_item">
-                        <img src="/img/france.jpeg" alt="" class="catal_img">
+                        <img src="@/assets/img/france.jpeg" alt="" class="catal_img">
                         <p class="catal_card_title">Франция</p>
-                        <button class="catal_card_btn"><a href="">Подробнее</a></button>
+                        <p class="catal_card_desc">Отдыхайте душой и телом</p>
+                        <button class="catal_card_btn"><router-link to="/tour" class="catal_card_a">Подробнее</router-link></button>
 
                     </div>
-                    <div class="catal_card_item">
-                        <img src="/img/turkey.jpeg" alt="" class="catal_img">
+                    <div class="catal_card_item_const">
+                        <img src="@/assets/img/turkey.jpeg" alt="" class="catal_img">
                         <p class="catal_card_title">Турция</p>
-                        <button class="catal_card_btn"><a href="">Подробнее</a></button>
+                        <p class="catal_card_desc">Отдыхайте душой и телом</p>
+                        <button class="catal_card_btn"><router-link to="/tour" class="catal_card_a">Подробнее</router-link></button>
                     </div>
                 </div>
-                <div class="catal_card2">
+                <div class="catal_card">
                     <div class="catal_card_item">
-                        <img src="/img/mexico.jpeg" alt="" class="catal_img">
+                        <img src="@/assets/img/mexico.jpeg" alt="" class="catal_img">
                         <p class="catal_card_title">Мексика</p>
-                        <button class="catal_card_btn"><a href="">Подробнее</a></button>
+                        <p class="catal_card_desc">Отдыхайте душой и телом</p>
+                        <button class="catal_card_btn"><router-link to="/tour" class="catal_card_a">Подробнее</router-link></button>
                     </div>
                     <div class="catal_card_item">
-                        <img src="/img/japan.jpeg" alt="" class="catal_img">
+                        <img src="@/assets/img/japan.jpeg" alt="" class="catal_img">
                         <p class="catal_card_title">Япония</p>
-                        <button class="catal_card_btn"><a href="">Подробнее</a></button>
+                        <p class="catal_card_desc">Отдыхайте душой и телом</p>
+                        <button class="catal_card_btn"><router-link to="/tour" class="catal_card_a">Подробнее</router-link></button>
                     </div>
-                    <div class="catal_card_item">
-                        <img src="/img/USA.jpeg" alt="" class="catal_img">
+                    <div class="catal_card_item_const">
+                        <img src="@/assets/img/USA.jpeg" alt="" class="catal_img">
                         <p class="catal_card_title">США</p>
-                        <button class="catal_card_btn"><a href="">Подробнее</a></button>
+                        <p class="catal_card_desc">Отдыхайте душой и телом</p>
+                        <button class="catal_card_btn"><router-link to="/tour" class="catal_card_a">Подробнее</router-link></button>
                     </div>
                 </div>
             </div>

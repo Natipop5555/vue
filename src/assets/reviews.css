@@ -1,3 +1,4 @@
+
 .reviews {
     height: 1632px;
     background-color: #FFF8F3;
@@ -6,7 +7,6 @@
     justify-content: center;
 }
 .reviews_title {
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
@@ -25,7 +25,6 @@
 }
 
 .reviews_p {
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -48,7 +47,6 @@
     background: #E5E5E5;
     border: none;
     border-radius: 5px;
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -66,7 +64,6 @@
     background: #E5E5E5;
     border: none;
     border-radius: 5px;
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -77,11 +74,11 @@
 }
 
 .reviews_btn {
+    font-family: "Rafale", sans-serif;
     width: 640px;
     height: 60px;
     background: #A0CED8;
     border-radius: 5px;
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -163,7 +160,6 @@
 .speech_text {
     margin-left: 10px;
     margin-top: 60px;
-    font-family: "Open Sans";
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -171,7 +167,6 @@
 
 .speech_data {
     margin-left: 10px;
-    font-family: "Open Sans";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;

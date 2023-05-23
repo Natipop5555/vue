@@ -6,12 +6,13 @@ import Authorization from "@/views/Authorization.vue"
 import Basket from "@/views/Basket.vue"
 import Catalogue from "@/views/Catalogue.vue"
 import Registration from "@/views/Registration.vue"
+import Tour from "@/views/Tour.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/home',
+      path: '/',
       name: 'home',
       component: Home
     },
@@ -44,6 +45,11 @@ const router = createRouter({
       path: '/regist',
       name: 'regist',
       component: Registration
+    },
+    {
+      path: '/tour',
+      name: 'tour',
+      component: Tour
     },
   ]
 })

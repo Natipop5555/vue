@@ -13,40 +13,39 @@ export default {
 
 <template>
 
-    <header class="header">
-        <div class="header__content">
-            <ul class="header__menu__list">
-                <li class="header_menu_item">
-                    <router-link to="/regist" class="header_link">Регистрация</router-link>
+    <header class="header_page1">
+        <div class="header__content__page1">
+            <ul class="header__menu__list__page1">
+                <li class="header_menu_item_page1">
+                    <router-link to="/regist" class="header_link_page1 header_link_second_page1">Регистрация</router-link>
                 </li>
-                <li class="header_menu_item">
-                    <router-link to="/autho" class="header_link">Авторизация</router-link>
+                <li class="header_menu_item_page1">
+                    <router-link to="/autho" class="header_link_page1">Авторизация</router-link>
                 </li>
-                <li class="header_menu_item">
-                    <router-link to="/catalog" class="header_link">Каталог</router-link>
+                <li class="header_menu_item_page1">
+                    <router-link to="/catalog" class="header_link_page1 header_link_first_page1">Каталог</router-link>
                 </li>
-                <li class="header_menu_item">
-                    <router-link to="/home"><img src="@/assets/img/logo.png" alt="logo" class="logo"></router-link>
+                <li class="header_menu_item_page1">
+                    <router-link to="/"><img src="@/assets/img/logo.png" alt="logo" class="logo_page1"></router-link>
                 </li>
-                <li class="header_menu_item">
-                    <router-link to="/basket" class="header_link">Корзина</router-link>
+                <li class="header_menu_item_page1">
+                    <router-link to="/basket" class="header_link_page1">Корзина</router-link>
                 </li>
-                <li class="header_menu_item">
-                    <router-link to="/reviews" class="header_link">Отзывы</router-link>
+                <li class="header_menu_item_page1">
+                    <router-link to="/reviews" class="header_link_page1">Отзывы</router-link>
                 </li>
             </ul>
-            <div class="header_menu_btn">
-                <input type="text" name="" id="" class="header_input">
-                <button class="menu_btn">Поиск</button>
+            <div class="header_menu_btn_page1">
+                <input type="text" name="" id="" class="header_input_page1">
+                <button class="menu_btn_page1">Поиск</button>
             </div>
         </div>
-
         <div class="header__hero">
             <p class="header_title_mini">Турагентство</p>
             <img src="@/assets/img/Comfort.png" alt="logo__img" class="header_title">
             <div class="header_buttons">
-                <button class="header_btn1">КУПИТЬ ТУР</button>
-                <button class="header_btn2"><router-link to="/personal">ЛИЧНЫЙ КАБИНЕТ</router-link></button>
+                <router-link to="/tour"><button class="header_btn1">КУПИТЬ ТУР</button></router-link>
+                <router-link to="/personal"><button class="header_btn2">ЛИЧНЫЙ КАБИНЕТ</button></router-link>
             </div>
         </div>
     </header>
